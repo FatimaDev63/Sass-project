@@ -1,0 +1,22 @@
+$font-path:"../css/fonts/primaryFont";
+@font-face{
+    src: url($font-path+"/dancingscript.woff") format("woff"),
+        url($font-path+"/dancingscript.woff2") format("woff2");
+
+    font-family: "DancingScript";
+    font-weight: normal;
+}
+@font-face{
+    src: url($font-path + "/josefinsans.woff") format("woff"),
+        url($font-path + "/josefinsans.woff2") format("woff2");
+
+    font-family: "JosefinSans";
+    font-weight: "normal";
+}
+@font-face{
+    src:  url($font-path + "/nunito.woff") format("woff"),
+        url($font-path + "/nunito.woff2") format("woff2");
+
+    font-family: "Nunito";
+    font-weight: "normal";
+}
